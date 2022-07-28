@@ -1,4 +1,3 @@
-
 #OSI Model
 
 What it is
