@@ -1,0 +1,18 @@
+https://www.canva.com/design/DAFJ98hVGoo/ep9vwW48ucapS6kwMLH-jw/view?utm_content=DAFJ98hVGoo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+a)A user requests content from www.foobar.com using a browser.
+
+b)The browser then sends http request to the DNS. 
+
+c)The DNS transforms the domain name to the ip address of the server.
+
+d)The server has got several component namely: web server,application server database and codebase.
+	i)A web server is a software that handles client/user http requests for static content ie. images,files and videos from a website
+
+	ii)An application server serves business logic(which is dynamic content) to application programs used by clients.
+
+	iii)The codebase refers to the programs and functions that manipulate data
+
+	iv)A database is a colection of related data.
+
+e)The server then provides HTTP respose back to the browser to be accessed by user
