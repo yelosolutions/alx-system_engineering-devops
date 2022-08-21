@@ -18,3 +18,8 @@ d)The server has got several component namely: web server,application server dat
 	iv)A database is a colection of related data.
 
 e)The server then provides HTTP response back to the browser to be accessed by user
+
+This type of server is an SPOF server because nothing is redundant.
+The website would temporarily be down when new code is deployed, therefore the server needs to be restarted.
+This infrastructre is not scallable and hence can't handle traffic exceeding its servers capacity. 
+This server is communicating over a network
