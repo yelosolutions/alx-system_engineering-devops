@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-# install nginx
-sudo apt-get update
-sudo apt-get install nginx
-echo "Hello World!" | > /var/www/html/index.nginx-debian.html
+# Configures a new ubuntu machine
+#+ Install nginx
+#+ Nginx should listen to port 80
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
 sudo service nginx start
+echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
