@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Put all
+# Display info about subdomains.l
 func () {
   dig_info=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | awk '{print $1" "$4" "$5}' | cut -d ";" -f 3)
   record=$(echo $dig_info | cut -d " " -f 2)

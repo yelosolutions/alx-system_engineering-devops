@@ -1,0 +1,37 @@
+#!/usr/bin/bash
+# ex59.sh Exercising functions (simple).
+
+JUST_A_SECOND=1
+
+funcy ()
+{ # This is about as simple as functions get.
+	echo "This is a funcy function"
+} # Function must preceed call
+
+fun ()
+{ #AA somewhat more complex function
+	i=0
+	REPEATS=30
+
+	echo
+	#echo
+	echo "And now the fun begins."
+	echo
+
+	sleep $JUST_A_SECOND	# Hey, wait a second!
+	while [ $i -lt $REPEATS ]
+	do
+		echo "----------FUNCTIONS-------->"
+		echo "<----------ARE--------------"
+		echo "<----------FUN-------------->"
+		echo
+		let "i+=1"
+	done
+}
+
+  # nOW CALL THE FUNCTIONS
+
+funcy
+fun
+
+exit $? 
